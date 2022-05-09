@@ -9,6 +9,7 @@
 }
 .side_icon{
     height: 24px;
+    
 }
 .sidebar_icons{
     display: flex;
@@ -18,6 +19,7 @@
     justify-content: center;
     cursor: pointer;
     position: relative;
+    margin: 16px 0px;
 }
 .text{
     font-size: 10px;
