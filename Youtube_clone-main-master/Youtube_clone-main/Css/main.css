@@ -1,0 +1,81 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+    padding: 10px 30px;
+}
+
+@media (max-width:1150px) {
+  .main{
+    grid-template-columns: 1fr 1fr 1fr ;
+  }
+}
+  @media (max-width:880px) {
+    .main{
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (max-width:510px) {
+    .main{
+      grid-template-columns:  1fr;
+    }
+  }
+.thumbnail{
+    width: 100%;
+}
+.dp{
+    width: 36px;
+    border-radius: 36px;
+    margin-top: 12px;
+  }
+.vid_data{
+    display: grid;
+    grid-template-columns:50px 1fr;
+  }
+.title{
+    font-size: 16px;
+    font-family: "Roboto","Arial",sans-serif;
+    font-weight: 600;
+  
+  }
+.title_meta{
+    margin-top:10px ;
+  }
+.channel_name{
+    font-weight: lighter;
+    font-size: 14px;
+  }
+.viwes{
+    font-weight: lighter;
+    font-size: 14px;
+  }
+.video_thumbnail{
+    z-index: 100;
+    position: relative;
+  }
+.time{
+    position: absolute;
+    bottom: 12px;
+    right: 8px;
+    color: white;
+    background-color:  rgba(0, 0, 0, 0.8);
+    border-radius: 6px;
+    padding: 2px 3px;
+    font-size: 12px;
+}
+.channel_name,.viwes{
+color:rgb(87, 85, 85);
+}
+.channel_name:hover{
+  color: rgb(35, 35, 35);
+}
+.title{
+  color: rgb(34, 33, 33);
+  font-size: 14px;
+ margin-bottom:6px ;
+
+
+
+  
+}

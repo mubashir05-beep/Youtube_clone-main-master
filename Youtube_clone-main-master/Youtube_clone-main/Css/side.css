@@ -1,0 +1,44 @@
+.sidebar{
+    position: fixed;
+    top: 57px;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    width:77px;
+    padding-top: 20px
+}
+.side_icon{
+    height: 24px;
+}
+.sidebar_icons{
+    display: flex;
+    flex-direction: column;
+    height: 72px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+.text{
+    font-size: 10px;
+    font-weight: 300;
+}
+.sidebar_icons:hover{
+    background-color: lightgray;
+}
+.sidebar_icons .tooltip{
+    background-color: rgb(83, 81, 81);
+    color: rgb(209, 208, 208);
+    font-size: 10px;
+    position:absolute;
+    opacity: 0;
+    padding: 4px 8px;
+    bottom: -20px;
+    pointer-events: none;
+    transition: opacity 0.15s;
+    white-space: nowrap;
+    
+}
+.sidebar_icons:hover .tooltip{
+    opacity: 1;
+}
